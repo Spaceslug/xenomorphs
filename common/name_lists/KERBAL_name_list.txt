@@ -1,0 +1,546 @@
+﻿
+KERBAL = {
+
+	ship_names = {
+		generic = {
+			"Kerbal I" "Kerbal II" "Kerbal III" "Kerbal IV" "Kerbal V" "Kerbal VI" "Kerbal VII" "Kerbal VIII" "Kerbal IX" "Kerbal X" "Kerbal XI" "Kerbal XII" "Kerbal XIII" "Kerbal XIV" "Kerbal XV"
+			"Kerman I" "Kerman II" "Kerman III" "Kerman IV" "Kerman V" "Kerman VI" "Kerman VII" "Kerman VIII" "Kerman IX" "Kerman X" "Kerman XI" "Kerman XII" "Kerman XIII" "Kerman XIV" "Kerman XV"
+			"Duna I" "Duna II" "Duna III" "Duna IV" "Duna V" "Duna VI" "Duna VII" "Duna VIII" "Duna IX" "Duna X" "Duna XI" "Duna XII" "Duna XIII" "Duna XIV" "Duna XV"
+			"Moho I" "Moho II" "Moho III" "Moho IV" "Moho V" "Moho VI" "Moho VII" "Moho VIII" "Moho IX" "Moho X" "Moho XI" "Moho XII" "Moho XIII" "Moho XIV" "Moho XV"
+			"Eve I" "Eve II" "Eve III" "Eve IV" "Eve V" "Eve VI" "Eve VII" "Eve VIII" "Eve IX" "Eve X" "Eve XI" "Eve XII" "Eve XIII" "Eve XIV" "Eve XV"
+			"Kerbin I" "Kerbin II" "Kerbin III" "Kerbin IV" "Kerbin V" "Kerbin VI" "Kerbin VII" "Kerbin VIII" "Kerbin IX" "Kerbin X" "Kerbin XI" "Kerbin XII" "Kerbin XIII" "Kerbin XIV" "Kerbin XV"
+			"Dres I" "Dres II" "Dres III" "Dres IV" "Dres V" "Dres VI" "Dres VII" "Dres VIII" "Dres IX" "Dres X" "Dres XI" "Dres XII" "Dres XIII" "Dres XIV" "Dres XV"
+			"Jool I" "Jool II" "Jool III" "Jool IV" "Jool V" "Jool VI" "Jool VII" "Jool VIII" "Jool IX" "Jool X" "Jool XI" "Jool XII" "Jool XIII" "Jool XIV" "Jool XV"
+			"Eeloo I" "Eeloo II" "Eeloo III" "Eeloo IV" "Eeloo V" "Eeloo VI" "Eeloo VII" "Eeloo VIII" "Eeloo IX" "Eeloo X" "Eeloo XI" "Eeloo XII" "Eeloo XIII" "Eeloo XIV" "Eeloo XV"
+			"Mun I" "Mun II" "Mun III" "Mun IV" "Mun V" "Mun VI" "Mun VII" "Mun VIII" "Mun IX" "Mun X" "Mun XI" "Mun XII" "Mun XIII" "Mun XIV" "Mun XV"
+			"Gilly I" "Gilly II" "Gilly III" "Gilly IV" "Gilly V" "Gilly VI" "Gilly VII" "Gilly VIII" "Gilly IX" "Gilly X" "Gilly XI" "Gilly XII" "Gilly XIII" "Gilly XIV" "Gilly XV"
+			"Minmus I" "Minmus II" "Minmus III" "Minmus IV" "Minmus V" "Minmus VI" "Minmus VII" "Minmus VIII" "Minmus IX" "Minmus X" "Minmus XI" "Minmus XII" "Minmus XIII" "Minmus XIV" "Minmus XV"
+			"Ike I" "Ike II" "Ike III" "Ike IV" "Ike V" "Ike VI" "Ike VII" "Ike VIII" "Ike IX" "Ike X" "Ike XI" "Ike XII" "Ike XIII" "Ike XIV" "Ike XV"
+			"Laythe I" "Laythe II" "Laythe III" "Laythe IV" "Laythe V" "Laythe VI" "Laythe VII" "Laythe VIII" "Laythe IX" "Laythe X" "Laythe XI" "Laythe XII" "Laythe XIII" "Laythe XIV" "Laythe XV"
+			"Kerlington I" "Kerlington II" "Kerlington III" "Kerlington IV" "Kerlington V" "Kerlington VI" "Kerlington VII" "Kerlington VIII" "Kerlington IX" "Kerlington X" "Kerlington XI" "Kerlington XII" "Kerlington XIII" "Kerlington XIV" "Kerlington XV"		
+			"FL LV-1 'Ant'" "LV-1R 'Spider'" "LV-909 'Terrier'" "LV-N 'Nerv'" "LV-T30 'Reliant'" "LV-T45 'Swivel'"					
+		}
+		
+		corvette = {  
+			
+		}
+		
+		constructor = {
+			"Assembly Ship I" "Assembly Ship II" "Assembly Ship III" "Assembly Ship IV" "Assembly Ship V" "Assembly Ship VI" "Assembly Ship VII" "Assembly Ship VIII" "Assembly Ship IX" "Assembly Ship X" "Assembly Ship XI" "Assembly Ship XII" "Assembly Ship XIII" "Assembly Ship XIV" "Assembly Ship XV"
+			"Sean's Canner I" "Sean's Canner II" "Sean's Canner III" "Sean's Canner IV" "Sean's Canner V" "Sean's Canner VI" "Sean's Canner VII" "Sean's Canner VIII" "Sean's Canner IX" "Sean's Canner X" "Sean's Canner XI" "Sean's Canner XII" "Sean's Canner XIII" "Sean's Canner XIV" "Sean's Canner XV"
+		}
+		
+		colonizer = {
+			"PPD-10 Hitchhiker I" "PPD-10 Hitchhiker II" "PPD-10 Hitchhiker III" "PPD-10 Hitchhiker IV" "PPD-10 Hitchhiker V"
+			"PPD-10 Hitchhiker VI" "PPD-10 Hitchhiker VII" "PPD-10 Hitchhiker VIII" "PPD-10 Hitchhiker IX" "PPD-10 Hitchhiker X"
+			"PPD-10 Hitchhiker XI" "PPD-10 Hitchhiker XII" "PPD-10 Hitchhiker XIII" "PPD-10 Hitchhiker XIV" "PPD-10 Hitchhiker XV"
+			"PPD-10 Hitchhiker XVI" "PPD-10 Hitchhiker XVII" "PPD-10 Hitchhiker XVIII" "PPD-10 Hitchhiker XIX" "PPD-10 Hitchhiker XX"
+		}
+		
+		science = {
+		   "Mobile Processing Lab I" "Mobile Processing Lab II" "Mobile Processing Lab III" "Mobile Processing Lab IV" "Mobile Processing Lab V"
+		   "Mobile Processing Lab VI" "Mobile Processing Lab VII" "Mobile Processing Lab VIII" "Mobile Processing Lab IX" "Mobile Processing Lab X"
+		   "Mobile Processing Lab XI" "Mobile Processing Lab XII" "Mobile Processing Lab XIII" "Mobile Processing Lab XIV" "Mobile Processing Lab XV"
+		   "Mobile Processing Lab XVI" "Mobile Processing Lab XVII" "Mobile Processing Lab XVIII" "Mobile Processing Lab XIX" "Mobile Processing Lab XX"
+		   "SC-9001 Science Jr I" "SC-9001 Science Jr II" "SC-9001 Science Jr III" "SC-9001 Science Jr IV" "SC-9001 Science Jr V"
+		   "SC-9001 Science Jr VI" "SC-9001 Science Jr VII" "SC-9001 Science Jr VIII" "SC-9001 Science Jr IX" "SC-9001 Science Jr X"
+		   "SC-9001 Science Jr XI" "SC-9001 Science Jr XII" "SC-9001 Science Jr XIII" "SC-9001 Science Jr XIV" "SC-9001 Science Jr XV"
+		   "SC-9001 Science Jr XVI" "SC-9001 Science Jr XVII" "SC-9001 Science Jr XVIII" "SC-9001 Science Jr XIX" "SC-9001 Science Jr XX"
+		 }
+		
+		destroyer = {
+
+		}
+		
+		cruiser = {
+			"C7 Aerospace Mk1" "C7 Aerospace Mk2" "C7 Aerospace Mk3" "C7 Aerospace Mk4" 
+			"C7 Aerospace Juno" "C7 Aerospace Wheesley" "C7 Aerospace Panther" "C7 Aerospace Goliath" "C7 Aerospace Whiplash"
+			"C7 Aerospace Rapier" "C7 Aerospace Dart"
+			"Kerman's Junkyard Ant" "Kerman's Junkyard Spider" "Kerman's Junkyard Terrier" "Kerman's Junkyard Nerv" "Kerman's Junkyard Reliant" "Kerman's Junkyard Swivel"
+			"STEADLER RC-001S" "STEADLER RC-L01"
+			"Kerbodyne Rhino" "Kerbodyne Twin Boar" "Kerbodyne Vector" "Kerbodyne Mammoth"
+			"Rockomax Jumbo" "Rockomax X200" "Rockomax Thud" "Rockomax Skipper" "Rockomax Poodle" "Rockomax Mainsail"
+			"Reaction Systems Ltd Puff"
+			"Periapsis"
+			
+			Asparagus
+			Jebediah
+			Bill
+			Valentina
+			Bob
+			"Wernher von Kerman"	
+		}
+		
+		battleship = {
+			"C7 Aerospace Mk1" "C7 Aerospace Mk2" "C7 Aerospace Mk3" "C7 Aerospace Mk4" 
+			"C7 Aerospace Juno" "C7 Aerospace Wheesley" "C7 Aerospace Panther" "C7 Aerospace Goliath" "C7 Aerospace Whiplash"
+			"C7 Aerospace Rapier" "C7 Aerospace Dart"
+			"Kerman's Junkyard Ant" "Kerman's Junkyard Spider" "Kerman's Junkyard Terrier" "Kerman's Junkyard Nerv" "Kerman's Junkyard Reliant" "Kerman's Junkyard Swivel"
+			"STEADLER RC-001S" "STEADLER RC-L01"
+			"Kerbodyne Rhino" "Kerbodyne Twin Boar" "Kerbodyne Vector" "Kerbodyne Mammoth"
+			"Rockomax Jumbo" "Rockomax X200" "Rockomax Thud" "Rockomax Skipper" "Rockomax Poodle" "Rockomax Mainsail"
+			"Reaction Systems Ltd Puff"
+			"Periapsis"
+			
+			Asparagus
+			Jebediah
+			Bill
+			Valentina
+			Bob
+			"Wernher von Kerman"	
+		}
+		
+		orbital_station = { 
+			sequential_name = "%O% Vehicle Assembly Building" 
+		}
+		mining_station = { 
+			sequential_name = "%O% 'Drill-O-Matic' Mining Excavator" 
+		}
+		research_station = { 
+			sequential_name = "%O% R&D Facility" 
+		}
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { 
+			sequential_name = "%O% Tracking Station"
+		}
+		outpost_station = {
+			sequential_name = "%O% Frontier Outpost"
+		}
+		
+		transport = {
+		}
+
+		military_station_small = { 
+		}
+
+		military_station_medium = { 
+		}
+
+		military_station_large = { 
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Kerbolar Fleet"
+		}
+		sequential_name = "%O% Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Defense Army"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Assault Army"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Indentured Rifles"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "Droid Forces %R%"
+		}
+		
+		android_army = {
+			sequential_name = "Android Forces %R"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psi Commando"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xeno Army"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Mutation Army"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				 Atenalp Bolygo Blaned
+				 Mon Tevs Werel Ednom Dunia Dinja Swiat Lumea Odmun Byd
+				 "New Moho" "New Eve" "New Dres" "New Jool"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				"New Duna"
+				Otreised Gatavis Deb Col Poust Woestyn Basamort Pustin 
+				Nekro Neko Etsuw Anera Muk Harea Arros Dnaz Elbas Komoh Harena Areia Pisin Tywod Smelio Ramel Kasep
+				Arahas
+				Suha Cyxo Ces Tor Droog Viuk Aviuk Zaraz Aces Kuru Sych Tac	
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				"New Duna"
+				Minsus Dira Sosaus Idira Karuk
+				Nojnak Cano 
+				Anisarp Xap Slop Stov Umlot Poly Por Bart Farp Charp Ovlop Damm Zot 
+				Asem
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				Uport 
+				Zung Avles Hutan Namro
+				Erbra Morts Puu Muab Af Orebla Sor Skok Medis Lobra Dart Caga Deoc
+				Kisa Ajulp Des Neger Vihm Eso Hujan Sutiel Xita Chuva Lluvia Rumgay Glaw
+				Kostea Nedves Odimu Strim Umda Entogliw Ilmen Thaill
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				"New Kerbin" 
+				Mandril Benua Zemyno Celina Kita Dirfancy
+				Icini Domac Edisfor Emho Avaleth Haza Hamur Maja Asac Domov Fertrac
+				Arret Zema Jord Ard Maa Edre Dolf Bumi Seme Dat Aimei Namap Dunya Readd
+				Aval Ulab Ardom Bla Wualb Sinin Kek Biru Sud Zila Luza Salg Mav
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				"New Kerbin" 
+				Mandril Benua Zemyno Celina Kita Dirfancy
+				Icini Domac Edisfor Emho Avaleth Haza Hamur Maja Asac Domov Fertrac
+				Arret Zema Jord Ard Maa Edre Dolf Bumi Seme Dat Aimei Namap Dunya Readd
+				Aval Ulab Ardom Bla Wualb Sinin Kek Biru Sud Zila Luza Salg Mav
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				 "New Laythe"
+				Erom Mar Havet Eez Tenger Laut Geng Jura Bahar Deni Neib
+				Jesero Lac Noes To Danau Ezers Gadira Ogal Noj Nyll Ekal
+				Vode Eev Ziv Ria Snedu Apa Auga Netta 
+				Mokro Tallum Marg Nass Slapia
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				Adno Derf Kold Mluk Froid Tlak Dingin Odderf Salidmoo Fro Rece Orif Kalla Kugos Oer
+				Zarm Gelad Gel Fagy Salna Geada 
+				Zima Hivern Vinter Talv Teli Awtix Sik Gaeaf
+				Led Jaa Ledus Odel Dol Zub Bang Ia
+				Kinedel Buzul Gletser
+				Kylma 
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				"New Eeloo"
+				Adno Derf Kold Mluk Froid Tlak Dingin Odderf Salidmoo Fro Rece Orif Kalla Kugos Oer
+				Zarm Gelad Gel Fagy Salna Geada 
+				Zima Hivern Vinter Talv Teli Awtix Sik Gaeaf
+				Led Jaa Ledus Odel Dol Zub Bang Ia
+				Kinedel Buzul Gletser
+				Kylma 
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		default = {
+			first_names_male = {
+				Jebediah
+				Bill
+				Bob
+				Wernher
+				Gene
+				Mortimer
+				Linus
+				Walt
+				Gus
+				Bobak
+				Dawton
+				Dinkelstein
+				Eumon
+				Kirrim
+				Kurt
+				Doodfal
+				Jenkin
+				Danmal
+				Gerburry
+				Donnard
+				Gusrie
+				Dunfield
+				Fermin
+				Burming
+				Hadbin
+				Dancan
+				Enbus
+				Dungun
+				Donfrey
+				Dilald
+				Alrigh
+				Gilger
+				Caldun
+				Elhat
+				Gilger
+				Dorod
+				Boblin
+				Alcal
+				Billy-Boblin
+				Gusmon
+				Elsby
+				Barrey
+				Alnie
+				Kurt
+				Gilble
+				Fredlorf
+				Greghat
+				Erlin
+				Greggee
+				Duneny
+				Danely
+				Danby
+				Camney
+				Billy-Bobny
+				Cammore
+				Diling
+				James
+				Enman
+				Elley
+				Bilnie
+				Elfrod
+				Adfrey
+				Bartdun
+				Calfurt
+				Aling
+				Hadlorf
+				Barald
+				Adlo
+				Dudfal
+				Doger
+				Eldin
+				Freddin
+				Geoffield
+				Danlock
+				Gregmal
+				Geofly
+				Gusnard
+				Knuckey
+				Manley
+				Jack
+				Mac
+				Robbaz
+				Speir
+				Nexter
+				Danny
+			}
+			first_names_female = {
+				Valentina
+				Alselle
+				Nechelle
+				Maumie
+				Verka
+				Lisa 
+				Lizphie
+				Leete
+				Madline
+				Movie
+				Nanica
+				Peggy
+				Texie
+				Sieliel
+				Tivie
+				Zellian
+				Jenchel
+				Kerlee
+				Jesgee
+				Karke
+				Irgie
+				Siery
+				Julette
+				Asisa
+				Date
+				Giltrix
+				Arbe
+				Claugie
+				Natala
+				Gemnie
+				Sigelle
+				Gisa
+				Rata
+				Irlenna
+				Vallenna
+				Hilvy
+				Launa
+				Lisdine
+				Mama
+				Jentrix
+				Debdia
+				Carra
+				Tecia
+				Jeanette
+				Allee
+			}
+			second_names = {
+				Kerman
+			}
+			regnal_first_names_male = {
+				Jebediah
+				Bill
+				Bob
+				Wernher
+				Gene
+				Mortimer
+				Linus
+				Walt
+				Gus
+				Bobak
+				Dawton
+				Dinkelstein
+				Eumon
+				Kirrim
+				Kurt
+				Doodfal
+				Jenkin
+				Danmal
+				Gerburry
+				Donnard
+				Gusrie
+				Dunfield
+				Fermin
+				Burming
+				Hadbin
+				Dancan
+				Enbus
+				Dungun
+				Donfrey
+				Dilald
+				Alrigh
+				Gilger
+				Caldun
+				Elhat
+				Gilger
+				Dorod
+				Boblin
+				Alcal
+				Billy-Boblin
+				Gusmon
+				Elsby
+				Barrey
+				Alnie
+				Kurt
+				Gilble
+				Fredlorf
+				Greghat
+				Erlin
+				Greggee
+				Duneny
+				Danely
+				Danby
+				Camney
+				Billy-Bobny
+				Cammore
+				Diling
+				James
+				Enman
+				Elley
+				Bilnie
+				Elfrod
+				Adfrey
+				Bartdun
+				Calfurt
+				Aling
+				Hadlorf
+				Barald
+				Adlo
+				Dudfal
+				Doger
+				Eldin
+				Freddin
+				Geoffield
+				Danlock
+				Gregmal
+				Geofly
+				Gusnard
+				Knuckey
+				Manley
+				Jack
+				Mac
+				Robbaz
+				Speir
+				Nexter
+				Danny
+			}
+			regnal_first_names_female = {
+				Valentina
+				Alselle
+				Nechelle
+				Maumie
+				Verka
+				Lisa 
+				Lizphie
+				Leete
+				Madline
+				Movie
+				Nanica
+				Peggy
+				Texie
+				Sieliel
+				Tivie
+				Zellian
+				Jenchel
+				Kerlee
+				Jesgee
+				Karke
+				Irgie
+				Siery
+				Julette
+				Asisa
+				Date
+				Giltrix
+				Arbe
+				Claugie
+				Natala
+				Gemnie
+				Sigelle
+				Gisa
+				Rata
+				Irlenna
+				Vallenna
+				Hilvy
+				Launa
+				Lisdine
+				Mama
+				Jentrix
+				Debdia
+				Carra
+				Tecia
+				Jeanette
+				Allee
+			}
+			regnal_second_names = {
+				Kerman
+			}
+		}
+	}
+}

@@ -1,0 +1,182 @@
+############################
+### DISCOVERY CATEGORIES ###
+############################
+# potential = planet scope
+# on_success = ship scope
+# on_fail = ship scope
+# on_critical_fail = ship scope
+# level = level of discovery that is checked against scientist level
+# risk = risk of researching the discovery (defaults to NDefines::NGameplay:anomaly_RISK_DEFAULT)
+
+# For on_success, on_fail, on_critical_fail
+# FROM = planet scope
+# ROOT = ship scope
+# Ex. on_fail, ship_event would have the planet in From.From
+
+# Mun
+anomaly_category = {
+	key = "KSP_mun_category"
+	desc = "KSP_mun_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 1
+	risk = 0
+	
+	spawn_chance = {		
+		modifier = {
+			add = 9999999
+			has_planet_flag = mun
+		}
+		# modifier = {
+			# factor = 99999
+		# }
+	}
+	
+	on_success = {
+	}
+
+	on_fail = {
+		ship_event = { id = KSP.6 }
+	}
+
+	on_critical_fail = {
+		ship_event = { id = KSP.6 }
+	}
+}
+
+# Moho
+anomaly_category = {
+	key = "KSP_moho_category"
+	desc = "KSP_moho_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 1
+	risk = 0
+	
+	spawn_chance = {		
+		modifier = {
+			add = 9999999
+			has_planet_flag = moho
+		}
+		# modifier = {
+			# factor = 99999
+		# }
+	}
+	
+	on_success = {
+	}
+
+	on_fail = {
+	}
+
+	on_critical_fail = {
+	}
+}
+# Duna
+anomaly_category = {
+	key = "KSP_duna_category"
+	desc = "KSP_duna_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 1
+	risk = 0
+	
+	spawn_chance = {		
+		modifier = {
+			add = 9999999
+			has_planet_flag = duna
+		}
+		# modifier = {
+			# factor = 99999
+		# }
+	}
+	
+	on_success = {
+	}
+
+	on_fail = {
+	}
+
+	on_critical_fail = {
+	}
+}
+# Vall
+anomaly_category = {
+	key = "KSP_vall_category"
+	desc = "KSP_vall_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 1
+	risk = 0
+	
+	spawn_chance = {		
+		modifier = {
+			add = 9999999
+			has_planet_flag = vall
+		}
+		# modifier = {
+			# factor = 99999
+		# }
+	}
+	
+	on_success = {
+	}
+
+	on_fail = {
+	}
+
+	on_critical_fail = {
+	}
+}
+# ike
+anomaly_category = {
+	key = "KSP_ike_category"
+	desc = "KSP_ike_category_desc"
+	picture = GFX_evt_ship_in_orbit
+	level = 2
+	risk = 20
+	
+	spawn_chance = {		
+		modifier = {
+			add = 9999999
+			has_planet_flag = ike
+		}
+		# modifier = {
+			# factor = 99999
+		# }
+	}
+	
+	on_success = {
+	}
+
+	on_fail = {
+		ship_event = { id = KSP.13 }
+	}
+
+	on_critical_fail = {
+		ship_event = { id = KSP.14 }
+	}
+}
+# # Kerbin
+# anomaly_category = {
+	# key = "KSP_stranded_kerbal_category"
+	# desc = "KSP_stranded_kerbal_desc"
+	# picture = GFX_evt_ship_in_orbit
+	# level = 1
+	# risk = 0
+	
+	# spawn_chance = {		
+		# modifier = {
+			# add = 9999999
+			# has_planet_flag = kerbin_missing_kerbal
+		# }
+		# # modifier = {
+			# # factor = 99999
+		# # }
+	# }
+	
+	# on_success = {
+	# }
+
+	# on_fail = {
+	# }
+
+	# on_critical_fail = {
+	# }
+# }

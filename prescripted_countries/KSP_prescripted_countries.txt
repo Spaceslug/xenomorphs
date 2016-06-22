@@ -1,0 +1,61 @@
+kerbal_space_program = {
+	name = "kerbal_space_program"
+	spawn_enabled = yes # yes / no / always
+	
+	name_list = "KERBAL"
+	ship_prefix = "KSP"
+	
+	species_name = "Kerbal"
+	species_plural = "Kerbals"	#we should localize this!
+	species_adjective = "Kerbal"
+	species_class = "MAM"
+	trait = "trait_weak"
+	trait = "trait_natural_engineers"	
+	trait = "trait_charismatic"	
+	trait = "trait_resilient"	
+	portrait = "kerbal"
+	adjective = "Kerbal"
+	
+	government = "science_directorate"
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_xenophile"
+
+	flags = { kerbal_space_program add_kerbals }
+	
+	weapon = "tech_missiles_1"
+	ftl = warp
+	
+	planet_name = "Kerbin"
+	planet_class = "pc_continental"
+	initializer = "kerbol_system_initializer"
+	system_name = "Kerbol"
+	
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+	
+	empire_flag = {
+		icon= {
+			category = "kerbal"
+			file = "flag_kerbal_1.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"grey"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Wernher von Kerman"
+		gender = male
+		portrait = "kerbal_wernher"
+		texture = 0
+		hair = 0
+		clothes = 0
+	}
+}

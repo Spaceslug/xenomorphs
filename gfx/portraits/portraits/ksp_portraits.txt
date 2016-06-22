@@ -1,0 +1,260 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+##############################################################
+### Portraits
+###
+### Ex:
+### mam1 = {
+###		spriteType = "GFX_portrait_mam1"
+###		#OR
+###		texturefile = "gfx/interface/portraits/mammalien_massive_01.dds"
+###		#OR
+###		entity = "portrait_mammalian_06_entity"
+###	}
+
+##############################################################
+### Settings for character portrait VANILLA OVERRIDE TO FIX OFFSET
+
+character = {
+	size = { x = 600 y = 380 }
+
+	entity = {
+		orientation = center_down
+		position = { x = 0 y = -20 }
+		scale = 24
+	}
+	#2d Portrait position
+	icon = {
+		orientation = center_down
+		position = { x = 0 y = 0 }
+		scale = 1.0
+	}
+}
+###
+
+portraits = {
+
+	# Kerbal
+	# mam1 = {	entity = "portrait_mammalian_01_entity" clothes_selector = "mammalian_slender_01_clothes_01" hair_selector = "no_texture" 
+		# greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/models/portraits/mammalian/mammalian_slender_01_blue_orange.dds"
+			# "gfx/models/portraits/mammalian/mammalian_slender_01_blue_white.dds"
+			# "gfx/models/portraits/mammalian/mammalian_slender_01_black_yellow.dds"
+			# "gfx/models/portraits/mammalian/mammalian_slender_01_black_orange.dds"
+			# "gfx/models/portraits/mammalian/mammalian_slender_01_green_yellow.dds"
+			# "gfx/models/portraits/mammalian/mammalian_slender_01_green_white.dds"
+			# "gfx/models/portraits/mammalian/mammalian_slender_01_black_white.dds"
+		# }	
+	# }
+	kerbal_f = {	
+		texturefile = "gfx/kerbal_models/kerbal_white_female.dds"
+		#clothes_selector = "mammalian_massive_clothes_01" 
+		#hair_selector = "no_texture" 	
+		greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/kerbal_models/kerbal_white_female.dds"
+		# }
+	}
+	kerbal_m = {	
+		texturefile = "gfx/kerbal_models/kerbal_white_male.dds"
+		#clothes_selector = "mammalian_massive_clothes_01" 
+		#hair_selector = "no_texture" 
+		greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/kerbal_models/kerbal_white_male.dds"
+		# }
+	}
+	kerbal_scientist_m = {	
+		texturefile = "gfx/kerbal_models/kerbal_scientist_male.dds"
+		#clothes_selector = "mammalian_massive_clothes_01" 
+		#hair_selector = "no_texture" 
+		greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/kerbal_models/kerbal_white_male.dds"
+		# }
+	}
+	kerbal_scientist_f = {	
+		texturefile = "gfx/kerbal_models/kerbal_scientist_female.dds"
+		#clothes_selector = "mammalian_massive_clothes_01" 
+		#hair_selector = "no_texture" 
+		greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/kerbal_models/kerbal_white_male.dds"
+		# }
+	}
+	kerbal_wernher = {	
+		texturefile = "gfx/kerbal_models/kerbal_werner_von_kerman.dds"
+		#clothes_selector = "mammalian_massive_clothes_01" 
+		#hair_selector = "no_texture" 
+		greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/kerbal_models/kerbal_white_male.dds"
+		# }
+	}
+	kerbal_suit_m = {	
+		texturefile = "gfx/kerbal_models/kerbal_suit_male.dds"
+		#clothes_selector = "mammalian_massive_clothes_01" 
+		#hair_selector = "no_texture" 
+		greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/kerbal_models/kerbal_white_male.dds"
+		# }
+	}
+	kerbal_PR_m = {	
+		texturefile = "gfx/kerbal_models/kerbal_PR_male.dds"
+		#clothes_selector = "mammalian_massive_clothes_01" 
+		#hair_selector = "no_texture" 
+		greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/kerbal_models/kerbal_white_male.dds"
+		# }
+	}
+	kerbal_primitive_m = {	
+		texturefile = "gfx/kerbal_models/kerbal_primitive_male.dds"
+		#clothes_selector = "mammalian_massive_clothes_01" 
+		#hair_selector = "no_texture" 
+		greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/kerbal_models/kerbal_white_male.dds"
+		# }
+	}
+	kerbal_orange_m = {	
+		texturefile = "gfx/kerbal_models/kerbal_orange_male.dds"
+		#clothes_selector = "mammalian_massive_clothes_01" 
+		#hair_selector = "no_texture" 
+		greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/kerbal_models/kerbal_white_male.dds"
+		# }
+	}
+	kerbal_orange_f = {	
+		texturefile = "gfx/kerbal_models/kerbal_orange_female.dds"
+		#clothes_selector = "mammalian_massive_clothes_01" 
+		#hair_selector = "no_texture" 
+		greeting_sound = "mammalian_01_greetings"
+		# character_textures = {
+			# "gfx/kerbal_models/kerbal_white_male.dds"
+		# }
+	}
+}
+
+portrait_groups = {
+	kerbal = {
+		default = kerbal_m
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					kerbal_m
+					kerbal_scientist_m
+					kerbal_wernher
+					kerbal_suit_m
+					kerbal_orange_m
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					kerbal_f
+					kerbal_orange_f
+					kerbal_scientist_f
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					kerbal_m
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = { owner = { is_primitive = no } }
+				portraits = {
+					kerbal_m
+					kerbal_f
+				}
+			}
+			add = {
+				trigger = { owner = { is_primitive = yes } }
+				portraits = {
+					kerbal_primitive_m
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					kerbal_f
+					kerbal_orange_f
+					kerbal_scientist_f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					kerbal_m
+					kerbal_scientist_m
+					kerbal_PR_m
+					kerbal_orange_m
+				}
+			}
+		}
+		
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					kerbal_f
+					kerbal_orange_f
+					kerbal_scientist_f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					kerbal_m
+					kerbal_scientist_m
+					kerbal_suit_m
+					kerbal_orange_m
+				}
+			}
+		}
+	}			
+}

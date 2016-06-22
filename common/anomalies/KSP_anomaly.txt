@@ -1,0 +1,115 @@
+# potential = ship scope
+
+# All discoveries assigned weight 1 unless otherwise stated
+
+# Coprolite Asteroid
+
+##Mun
+# UFO
+anomaly = {
+	event = KSP.3
+	category = "KSP_mun_category"
+	
+	weight = 100
+	
+	potential = {
+		always = yes
+	}
+}
+
+# Arches
+anomaly = {
+	event = KSP.4
+	category = "KSP_mun_category"
+	
+	weight = 100
+	
+	potential = {
+		always = yes
+	}
+}
+
+# Monolith
+anomaly = {
+	event = KSP.5
+	category = "KSP_mun_category"
+	
+	weight = 100
+	
+	potential = {
+		always = yes
+	}
+}
+
+## Mohole
+anomaly = {
+	event = KSP.7
+	category = "KSP_moho_category"
+	
+	weight = 100
+	
+	potential = {
+		always = yes
+	}
+}
+
+##Duna
+# Face
+anomaly = {
+	event = KSP.9
+	category = "KSP_duna_category"
+	
+	weight = 100
+	
+	potential = {
+		always = yes
+	}
+}
+
+# SSTV Signal
+anomaly = {
+	event = KSP.10
+	category = "KSP_duna_category"
+	
+	weight = 100
+	
+	potential = {
+		always = yes
+	}
+}
+
+## Vall henge
+anomaly = {
+	event = KSP.11
+	category = "KSP_vall_category"
+	
+	weight = 100
+	
+	potential = {
+		always = yes
+	}
+}
+
+## Ike Boulder
+anomaly = {
+	event = KSP.12
+	category = "KSP_ike_category"
+	
+	weight = 100
+	
+	potential = {
+		always = yes
+	}
+}
+
+# ## lost kerbal
+# anomaly = {
+	# event = KSP.12
+	# category = "KSP_stranded_kerbal_category"
+	
+	# weight = 100
+	
+	# potential = {
+		# always = yes
+	# }
+# }

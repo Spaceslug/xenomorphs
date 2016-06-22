@@ -1,0 +1,32 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+##############################################################
+### Portraits
+###
+### Ex:
+### mam1 = {
+###		spriteType = "GFX_portrait_mam1"
+###		#OR
+###		texturefile = "gfx/interface/portraits/mammalien_massive_01.dds"
+###		#OR
+###		entity = "portrait_mammalian_06_entity"
+###	}
+
+
+portraits = {
+
+	
+	xenomorph = {
+		texturefile = "gfx/xenomorph_models/xenomorph_01.dds"
+	}
+
+}
