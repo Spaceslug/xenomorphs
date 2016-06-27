@@ -33,12 +33,12 @@ xenomorph_swarm = {
 	
 	empire_flag = {  						#TODO: custom flag
 		icon= {
-			category = "zoological"
-			file = "flag_zoological_6.dds"
+			category = "xenomorph"
+			file = "flag_xenomorph.dds"
 		}
 		background= {
 			category = "backgrounds"
-			file = "stripes.dds"
+			file = "00_solid.dds"
 		}
 		colors={
 			"black"
