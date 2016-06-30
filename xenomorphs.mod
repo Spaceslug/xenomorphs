@@ -3,4 +3,4 @@ path="mod/xenomorphs"
 tags={
 	"Species"
 }
-supported_version="1.1.*"
+supported_version="1.2.*"

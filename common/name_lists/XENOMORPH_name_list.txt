@@ -1,0 +1,268 @@
+### Xenomorph name list
+XENO1 = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = {
+
+			#sequential_name = "Vessel-%O%"
+			Vessel-0 
+			Vessel-1 
+			Vessel-2 
+			Vessel-3 
+			Vessel-4 
+			Vessel-5 
+			Vessel-6 
+			Vessel-7 
+			Vessel-8 
+			Vessel-9
+			Vessel-10 
+			Vessel-11 
+			Vessel-12 
+			Vessel-13 
+			Vessel-14 
+			Vessel-15 
+			Vessel-16 
+			Vessel-17 
+			Vessel-18 
+			Vessel-19	
+			Vessel-20 
+			Vessel-21 
+			Vessel-22 
+			Vessel-23 
+			Vessel-24 
+			Vessel-25 
+			Vessel-26 
+			Vessel-27 
+			Vessel-28 
+			Vessel-29
+			Vessel-30 
+			Vessel-31 
+			Vessel-32 
+			Vessel-33 
+			Vessel-34 
+			Vessel-35 
+			Vessel-36 
+			Vessel-37 
+			Vessel-38 
+			Vessel-39
+			Vessel-40 
+			Vessel-41 
+			Vessel-42 
+			Vessel-43 
+			Vessel-44 
+			Vessel-45 
+			Vessel-46 
+			Vessel-47 
+			Vessel-48 
+			Vessel-49
+			Vessel-50 
+			Vessel-51 
+			Vessel-52 
+			Vessel-53 
+			Vessel-54 
+			Vessel-55 
+			Vessel-56 
+			Vessel-57 
+			Vessel-58 
+			Vessel-59
+		}	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		orbital_station = {
+  			sequential_name = "Nest-%O%"
+		}
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			sequential_name = "Outpost-%O%"
+		}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		sequential_name = "%O% Swarm"
+	}
+
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Guard Army"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Assault Army"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Army"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robot Army"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Android Army"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Psionic Army"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% XenoXeno Army"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Genetic Army"
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				"LV-416" "LV-417" "LV-418" "LV-419" "LV-420" "LV-421" "LV-422" "LV-423" "LV-424" "LV-425" "LV-426" "LV-427" "LV-428" "LV-429" "LV-430" "LV-431" "LV-432" "LV-433"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				"Drone-0"
+				"Drone-1"
+				"Drone-2"
+				"Drone-3"
+				"Drone-4"
+				"Drone-5"
+				"Drone-6"
+				"Drone-7"
+				"Drone-8"
+				"Drone-9"
+				"Drone-10" 
+				"Drone-11" 
+				"Drone-12" 
+				"Drone-13" 
+				"Drone-14" 
+				"Drone-15" 
+				"Drone-16" 
+				"Drone-17" 
+				"Drone-18" 
+				"Drone-19"
+				"Drone-20" 
+				"Drone-21" 
+				"Drone-22" 
+				"Drone-23" 
+				"Drone-24" 
+				"Drone-25" 
+				"Drone-26" 
+				"Drone-27" 
+				"Drone-28" 
+				"Drone-29"
+				"Drone-30" 
+				"Drone-31" 
+				"Drone-32" 
+				"Drone-33" 
+				"Drone-34" 
+				"Drone-35" 
+				"Drone-36" 
+				"Drone-37" 
+				"Drone-38" 
+				"Drone-39"
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				#"Renderer" "Destroyer" "Slayer" "Killer" "Terminatrix"  
+			}
+			
+			regnal_second_names = {
+				#"Mother"
+			}
+		}
+	}
+}

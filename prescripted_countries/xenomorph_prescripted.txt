@@ -3,7 +3,7 @@ xenomorph_swarm = {
 	name = "xenomorph_swarm"
 	spawn_enabled = yes # yes / no / always
 	
-	name_list = "ART1"  						#TODO: make a namelist for xenomorphs
+	name_list = "XENO1"  					
 	ship_prefix = "XX"
 	
 	
@@ -17,9 +17,9 @@ xenomorph_swarm = {
 	trait = "trait_natural_physicists"
 	portrait = "xenomorph"  	
 	
-	planet_name = "Xenomorph Home Planet"
+	planet_name = "Xenomorph Prime"
 	planet_class = "pc_arid"
-	system_name = Xenomorph Home System
+	system_name = "Xenomorph Home System"
 	
 	government = "swarm"
 	ethic = "ethic_pacifist"
@@ -31,7 +31,7 @@ xenomorph_swarm = {
 	graphical_culture = "arthropoid_01"		#TODO: custom graphic for cities nd #shit   
 	city_graphical_culture = "arthropoid_01"
 	
-	empire_flag = {  						#TODO: custom flag
+	empire_flag = {  						
 		icon= {
 			category = "xenomorph"
 			file = "flag_xenomorph.dds"
@@ -49,7 +49,7 @@ xenomorph_swarm = {
 	}
 	
 	ruler = {
-		name = "Specimen 6"
+		name = "Specimen-6"
 		gender = female
 		portrait = "xenomorph"
 		texture = 1
