@@ -1,0 +1,27 @@
+﻿trait_fart = {
+	cost = -2
+	
+	initial = no
+	modification = no
+
+	modifier = {
+		pop_growth_req_mult = -0.5
+		pop_environment_tolerance = 1.0
+
+	}
+}
+
+
+trait_bioweapon = {
+	cost = 0
+	
+	initial = no
+	modification = no
+	
+	modifier = {
+		leader_age = 150
+		pop_environment_tolerance = 1.0
+		pop_growth_req_mult = -0.5
+		species_leader_exp_gain = -0.50
+	}
+}

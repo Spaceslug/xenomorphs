@@ -12,9 +12,8 @@ xenomorph_swarm = {
 	species_adjective = "Xenomorph"
 	adjective = "Xenomorph"
 	species_class = "ART"
-	trait = "trait_talented"  				#TODO: create custom traits
-	trait = "trait_solitary"
-	trait = "trait_natural_physicists"
+	trait = "trait_bioweapon"
+     
 	portrait = "xenomorph"  	
 	
 	planet_name = "Xenomorph Prime"
@@ -22,8 +21,8 @@ xenomorph_swarm = {
 	system_name = "Xenomorph Home System"
 	
 	government = "swarm"
-	ethic = "ethic_pacifist"
-	ethic = "ethic_fanatic_spiritualist"	
+	ethic = "ethic_fanatic_collectivist"
+	ethic = "ethic_militarist"	
 	
 	weapon = "tech_mass_drivers_1"
 	ftl = wormhole

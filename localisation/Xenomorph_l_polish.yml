@@ -1,0 +1,13 @@
+﻿l_polish:
+ xenomorphs: "xenomorphs"
+ xenomorph: "xenomorph"
+ xenomorph_swarm: "Xenomorph Swarm"
+ EMPIRE_DESIGN_xenomorph_swarm: "Xenomorph Swarm"
+ EMPIRE_DESIGN_xenomorph_swarm_desc: "Xenomorph is a highly aggressive endoparasitoid extraterrestrial species. The Xenomorphs are vicious predatory creatures with no higher goals than the propagation of their species and the destruction of any life that could pose a threat to them. Like wasps or bees, Xenomorphs are eusocial, with a fertile Queen breeding a host of subordinate castes. The creatures are known for their potent acidic blood and their pharyngeal jaws, although their biological life cycle, in which their offspring are implanted inside living hosts before erupting violently from their chests, is in many ways their signature aspect."
+ RT_XENOMORPH: "Empress"
+ RT_XENOMORPH_HEIR: "Queen"
+ swarm: "Swarm"
+ swarm_desc: "A mass of biological shit in a hive mind, working to fuck you up."
+ name_list_XENO1: "Xenomorph 1"
+ trait_bioweapon: "Bioweapon"
+ trait_bioweapon_desc: "This species is built to handle every enviroment, grow fast and live forever. Learning has not been prioritised though"

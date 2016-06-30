@@ -1,4 +1,4 @@
-# Advanced Generic Autocracy
+# Swarm
 swarm = {
 	has_heir = yes
 	use_regnal_names = yes
@@ -14,9 +14,12 @@ swarm = {
 	}
 	
 	modifier = {
-		planet_building_cost_mult = -0.3
-		slave_production_output = 0.20
-		slave_food_output = 0.20
+		pop_ethic_shift = -1
+		planet_colony_development_speed_mult = 0.5
+		pop_slavery_tolerance = 1
+		tile_resource_engineering_research_mult = -0.2
+		tile_resource_physics_research_mult = -0.2
+		tile_resource_society_research_mult = -0.2
 	}
 	
 	ruler_title = RT_XENOMORPH
